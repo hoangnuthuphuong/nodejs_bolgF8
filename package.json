@@ -1,0 +1,25 @@
+{
+  "name": "blog_web",
+  "version": "1.0.0",
+  "description": "học node.js tại f8 offical",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangnuthuphuong/nodejs_bolgF8.git"
+  },
+  "author": "hoangnuthuphuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangnuthuphuong/nodejs_bolgF8/issues"
+  },
+  "homepage": "https://github.com/hoangnuthuphuong/nodejs_bolgF8#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
