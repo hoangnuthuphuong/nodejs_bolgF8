@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-app.get("/homepage", (req, res) => {
+app.get("/", (req, res) => {
   return res.send("Hello World!");
 });
 
