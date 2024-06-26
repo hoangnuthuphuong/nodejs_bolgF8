@@ -15,10 +15,21 @@ app.set("view engine", "ejs");
 
 //khai bao route
 app.get("/", (req, res) => {
-  res.render("abc");
+  res.render("abc_page");
+});
+
+app.get("/a", (req, res) => {
+  res.render("abc_page");
+});
+
+app.get("/b", (req, res) => {
+  res.render("page_b");
 });
 
 app.get("/hello", (req, res) => {
+  res.render("footer");
+});
+app.get("/", (req, res) => {
   res.render("footer");
 });
 
